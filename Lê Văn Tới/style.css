@@ -78,3 +78,17 @@ nav ul li:nth-child(5) button{
 nav ul li:nth-child(5) button:hover{
     background-color: white;
 }
+/* --------------------- menu-bar ----------------------*/
+.menu-bar{
+    background-color: #FFD400;
+}
+.menu-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bar ul li {
+    color: black;
+    font-size: 14px;
+    padding: 12px 12px;
+    transition: all 0.5s;
+}

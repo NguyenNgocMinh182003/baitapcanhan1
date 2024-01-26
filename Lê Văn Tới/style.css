@@ -92,3 +92,38 @@ nav ul li:nth-child(5) button:hover{
     padding: 12px 12px;
     transition: all 0.5s;
 }
+.menu-bar ul li:hover{ 
+    background-color: white; 
+}
+/*------------------submenu---------------*/
+menu-bar-content ul li{
+    position: relative;
+
+}
+.submenu{
+    position: absolute;
+    background-color: #ddd;
+    width: 300px;
+    height: auto;
+    padding: 12px;
+    margin-top: 12px;
+    margin-left: -12px;
+    display: none;
+}
+.submenu ul{
+    display: flex;
+    flex-direction: column;
+}
+.submenu ul li {
+    padding: 6px 0px;
+    font-size: 15px;
+}
+.submenu ul li:hover a {
+    color: #FFD400;
+}
+.submenu ul li:hover{
+    background-color: #ddd;
+}
+.menu-bar-content ul li:hover .submenu {
+    display: block;
+}

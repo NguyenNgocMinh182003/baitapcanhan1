@@ -1,129 +1,102 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-}
-.icon{
-    width: 2px;
-    height: 2px;
-}
-header {
-    background-color: #FFC20E;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
-.container{
-    max-width: 1200px;
-    margin: auto;
-}
-/*.................nav ......................*/
-nav{
-    background-color: #FFD400;
-}
-nav ul{
+  }
+  
+  body {
+    color: rgb(11, 11, 11);
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    padding-right: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-nav ul li , a{
+    z-index: 100;
     color: black;
-}
-nav ul li:nth-child(2) button{
-    height: 35px;
-    padding: 0 12px;
-    cursor: pointer;
-    background-color: #FFC20E;
-    border: none;
-    border-radius: 4px;
-    transition: all 0.5s;
-}
-nav ul li:nth-child(2) button:hover{
-    background-color: white;
-}
-nav ul li:nth-child(3) input {
-    height: 35px;
-    width: 300px;
-    border: none;
-    border-radius: 15px;
-    padding-left: 8px;
-    outline: none;
-}
-nav ul li:nth-child(4) button {
-    height: 35px;
-    padding: 0 12px;
-    cursor: pointer;
-    background-color: #FFC20E;
-    border: none;
-    border-radius: 4px;
-    transition: all 0.5s;
-}
-nav ul li:nth-child(4) button:hover{
-    background-color: white;
-}
-nav ul li:nth-child(5) button{
-    height: 35px;
-    padding: 0 12px;
-    cursor: pointer;
-    background-color: #FFC20E;
-    border: none;
-    border-radius: 4px;
-    transition: all 0.5s;
-}
-nav ul li:nth-child(5) button:hover{
-    background-color: white;
-}
-/* --------------------- menu-bar ----------------------*/
-.menu-bar{
-    background-color: #FFD400;
-}
-.menu-bar ul {
-    display: flex;
-    justify-content: space-between;
-}
-.menu-bar ul li {
-    color: black;
-    font-size: 14px;
-    padding: 12px 12px;
-    transition: all 0.5s;
-}
-.menu-bar ul li:hover{ 
-    background-color: white; 
-}
-/*------------------submenu---------------*/
-menu-bar-content ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #EEEDEB;
+  }
+  
+  .mylogo {
     position: relative;
-
-}
-.submenu{
-    position: absolute;
-    background-color: #ddd;
-    width: 300px;
-    height: auto;
-    padding: 12px;
-    margin-top: 12px;
-    margin-left: -12px;
-    display: none;
-}
-.submenu ul{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+  }
+  
+   .navbar a {
+    position: relative;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 30px;
+  }
+  
+  .navbar a:hover {
+    color: blue;
+  }
+  
+  .home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-}
-.submenu ul li {
-    padding: 6px 0px;
-    font-size: 15px;
-}
-.submenu ul li:hover a {
-    color: #FFD400;
-}
-.submenu ul li:hover{
-    background-color: #ddd;
-}
-.menu-bar-content ul li:hover .submenu {
-    display: block;
-}
+    align-items: center;
+    background-color: #E0CCBE;
+    padding: 70px 10px;
+  }
+  
+  .content {
+    max-width: 600px;
+  }
+  
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(235, 235, 255)
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: white;
+  }
+  
+  span {
+    color: blue;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 25%;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }

@@ -1,0 +1,16 @@
+.ttcn 
+{
+  font-size: 15px;
+  background-color: darkblue;
+  text-align: left;
+  border:50 px;
+  border-color:aliceblue;
+  stroke-width: 0cap;
+  color:white;
+}
+#head
+{
+    background-color:lightblue;
+    color:white;
+    text-align: left;
+}

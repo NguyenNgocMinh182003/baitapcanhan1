@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html>
-    <head>
-         <title>myprofile</title>
-         <meta charset="utf-8">
-         <link rel="icon" href="logo.png">
-         <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-       <!-- header -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css -->
+    <link rel="stylesheet" href="main.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
     <header>
-      <div class="container">
+      <div class="container2" style="background-color: #8CB9BD;">
         <nav class="navbar">
           <!-- logo -->
           <div class="navbar__logo">
-            <img src="./img/logo.png" alt="" />
+            <img src="./img/logo.png" alt="website logo" />
           </div>
           <!-- links -->
           <ul class="navbar__links">
             <li class="navbar__link"><a href="#works">Work</a></li>
             <li class="navbar__link"><a href="#things">About</a></li>
             <li class="navbar__link"><a href="#works">Resume</a></li>
-            <a href="#footer"><button class="navbar__btn">Contact</button></a>
+            <a href="#footer"><button class="navbar__btn" style="color:#8CB9BD;">Contact</button></a>
           </ul>
           <!-- menu button -->
           <div class="navbar__icons">
@@ -29,5 +32,126 @@
         </nav>
       </div>
     </header>
-    </body>
-<html>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img src="./img/ava2.JPG" alt="illustration of women" style="border-radius: 300px;"/>
+        </div>
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Hello, I'm Toi</h1>
+          <p>
+            I am a student at PTIT, a sociable person. 
+            At work, I always want to be challenged with new fields 
+            as well as gain experience to improve myself.
+          </p>
+          <a href="#"><button class="banner__btn">View More</button></a>
+          <div class="banner__socials">
+            <a href="https://www.facebook.com/toi.levan.39904181"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/levantoi_003/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@letoi181103"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- things -->
+    <section id="things">
+      <div class="container">
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-r.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Things I Do</h2>
+        <!-- item 1 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/things-item-1.png" alt="illustration of women" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Lorem Ispum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              consequatur provident, culpa quaerat fugit dolorem illum
+              repellendus quas quasi obcaecati quia aliquid odit! Vitae, non?
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/things-item-2.png" alt="illustration of women" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Lorem Ispum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              consequatur provident, culpa quaerat fugit dolorem illum
+              repellendus quas quasi obcaecati quia aliquid odit! Vitae, non?
+            </p>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/things-item-3.png" alt="illustration of computer" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Lorem Ispum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              consequatur provident, culpa quaerat fugit dolorem illum
+              repellendus quas quasi obcaecati quia aliquid odit! Vitae, non?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <!-- dec -->
+        <div class="footer__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- img -->
+        <div class="footer__img">
+          <img src="./img/footer-img.png" alt="illustration of women" />
+        </div>
+        <!-- heading -->
+        <div class="footer__heading">
+          <h1>Ready to make something amazing?</h1>
+          <!-- contact -->
+          <div class="footer__contact">
+            <a href="tel:0386616171">
+              <i class="fas fa-phone-alt"></i>
+              <p>0386616171</p>
+            </a>
+            <a href="mailto:letoi7831@gmail.com">
+              <i class="fas fa-envelope"></i>
+              <p>letoi7831@gmail.com</p>
+            </a>
+          </div>
+          <div class="banner__socials">
+            <a href="https://www.facebook.com/toi.levan.39904181"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/levantoi_003/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@letoi181103"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/28c0af3030.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,16 +1,47 @@
-.ttcn 
+img
 {
-  font-size: 15px;
-  background-color: darkblue;
-  text-align: left;
-  border:50 px;
-  border-color:aliceblue;
-  stroke-width: 0cap;
-  color:white;
+  padding-top:10px;
+  image-rendering:center;
+  height: 25%;
+  width:50%;
+  display: block; margin-left: auto; margin-right: auto;
 }
 #head
+{ 
+    font-family: forte;
+    background-color: #2fa5eb;
+    text-align:right;
+    padding:10px;
+    border-width:2px;
+    border-style:solid;
+    border-color:red;
+    font-size:35px;
+   
+}
+.ttcn 
 {
-    background-color:lightblue;
-    color:white;
-    text-align: left;
+  display:flex;
+  text-align: left;
+  border:20px;
+  padding: 150px;
+  text-align:center;
+  float:left;
+  display: block; margin-left: auto; margin-right: auto;
+}
+
+.describe
+{
+  float:left;
+  border:20px;
+  padding: 120px;
+  text-align:center;
+  display: block; margin-left: auto; margin-right: auto;
+}
+.skill
+{
+  float:left;
+  padding:110px;
+  border:20px;
+  text-align:center;
+  display: block; margin-left: auto; margin-right: auto;
 }

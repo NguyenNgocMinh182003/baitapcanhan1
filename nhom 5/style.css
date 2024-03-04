@@ -135,6 +135,7 @@ html {
     display: block;
     margin:0px auto;
     margin-top:17px;
+    border-radius: 10px;
 }
 #list-products .item .name {
     text-align: center;

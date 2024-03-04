@@ -28,21 +28,12 @@ body{
 }
 #banner {
     width: 100%;
-    background-image :url("./img/banner.png");
-    height: 463px;
+    background-image :url("./img/nhom5.png");
+    height: 460px;
     margin-top:40px;
     display: flex;
     padding:0px 133px;
     position:relative;
-}
-#banner  .box-left h2 {
-    font-size:48px;
-    margin-top:75px;
-    color:#fff;
-}
-
-#banner .box-left p {
-    color:#D0D0D0;
 }
 .to-bottom {
     position:absolute;
@@ -50,9 +41,6 @@ body{
     left:50%;
     transform:translateX(-50%);
 }
-
-
-
 #wp-products {
     padding-top:116px;
     padding-bottom: 78px;

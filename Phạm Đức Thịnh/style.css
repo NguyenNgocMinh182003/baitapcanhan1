@@ -49,8 +49,8 @@ button:hover {
 }
 /*đặt tên biến cho màu */
 :root {
-  --green: #54b192;
-  --green-l: #a4cec0;
+  --green: #367781;
+  --green-l: #71a7c1;
   --gray: #3f3d56;
   --smooth: all 0.3s ease-in;
   --second-color: #00bfff;
